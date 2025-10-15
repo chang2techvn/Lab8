@@ -1,0 +1,7 @@
+[2025-10-15 15:40:50] Processing credit card payment of $100
+[2025-10-15 15:40:50] Refunding $50 to credit card
+[2025-10-15 15:40:50] Validating credit card: 1234-5678-9012-3456
+[2025-10-15 15:40:50] Processing PayPal payment of $100
+[2025-10-15 15:40:50] Refunding $50 via PayPal
+[2025-10-15 15:40:50] Processing cash payment of $100
+[2025-10-15 15:40:50] Refunding $50 in cash

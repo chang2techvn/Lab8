@@ -12,3 +12,4 @@
 /Users/changthanh/Downloads/Applied Programming and Design Principles/Lab8/PaymentApp/obj/Debug/net9.0/PaymentApp.pdb
 /Users/changthanh/Downloads/Applied Programming and Design Principles/Lab8/PaymentApp/obj/Debug/net9.0/PaymentApp.genruntimeconfig.cache
 /Users/changthanh/Downloads/Applied Programming and Design Principles/Lab8/PaymentApp/obj/Debug/net9.0/ref/PaymentApp.dll
+/Users/changthanh/Downloads/Applied Programming and Design Principles/Lab8/PaymentApp/obj/Debug/net9.0/PaymentApp.sourcelink.json

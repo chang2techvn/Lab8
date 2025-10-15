@@ -36,12 +36,16 @@ class Program
 
         Console.WriteLine("=== Refactored to adhere to LSP and ISP ===");
 
+        // Create logger and notifier instances
+        ILogger logger = new FileLogger();
+        INotifier notifier = new ConsoleNotifier();
+
         // LSP: All payments implement IPaymentProcessable and can be substituted
         List<IPaymentProcessable> refactoredPayments = new List<IPaymentProcessable>
         {
-            new CreditCardPaymentRefactored(),
-            new PayPalPaymentRefactored(),
-            new CashPaymentRefactored()
+            new CreditCardPaymentRefactored(logger, notifier),
+            new PayPalPaymentRefactored(logger, notifier),
+            new CashPaymentRefactored(logger, notifier)
         };
 
         foreach (var payment in refactoredPayments)
